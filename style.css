@@ -1,0 +1,264 @@
+
+/*******************
+    BASE SETUP
+*******************/
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 5px;
+  border-bottom: 0px;
+  border-top: 0px;
+  padding: 50px;
+  background: #F6F6F6;
+}
+
+/*******************
+    NAV SETUP
+*******************/
+
+.top-nav {
+  float: right;
+}
+
+.top-nav ul li {
+    display:inline-block;
+    vertical-align: top;
+    padding-left: 20px;
+}
+
+.top-nav a {
+  color: black;
+  font-size: 15px
+}
+
+/*******************
+    HEADER SETUP
+*******************/
+
+.inner-header {
+  clear: both;
+}
+
+/*******************
+    IMAGE SETUP
+*******************/
+
+.background-image-div {
+  background-image: url("images/richard-header-image.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+  min-height: 400px;
+  clear: both;
+}
+
+.background-image-div-page2 {
+  background-image: url("images/rocket-orange.jpg");
+  background-size: cover;
+  padding: 30px;
+  min-height: 400px;
+  clear: both;
+}
+
+.background-image-div-page3 {
+  background-image: url("images/rocket-white.jpg");
+  background-size: cover;
+  padding: 30px;
+  min-height: 400px;
+  clear: both;
+}
+
+/*******************
+  CONTENT SETUP
+*******************/
+
+h1 {
+font-size: 60px;
+}
+
+a {
+  font-weight: 700;
+  color: #05080C;
+}
+
+small {
+  color: #05080C;
+}
+
+strong {
+  color: #030609;
+  font-style: italic;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  color: #030609;
+  margin-top: 0;
+}
+
+h2 {
+  color: #030609;
+  font-size: 50px;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  font-size: 18px;
+  color: #030609;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 42px;
+}
+
+h4 {
+  font-weight: normal;
+  margin-bottom: 0;
+  color: #05080C;
+}
+
+p {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 0;
+  margin-bottom: 27px;
+  color: #05080C;
+}
+
+ul {
+  list-style: square;
+}
+
+ul p {
+  color: #05080C;
+}
+
+li {
+  color: #05080C;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #222222;
+  margin: 30px 0;
+}
+
+img {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #222222;
+  padding: 5px;
+  text-align: center
+}
+
+img[alt] {
+  float: right;
+}
+
+nav {
+  color: #black;
+  text-align: center;
+}
+
+/*******************
+  C2A SETUP
+*******************/
+
+.cta {
+  border-radius: 1px
+  color: #000;
+  display: block;
+  font-size: 22px;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.subscribe-c2a {
+  position: center;
+  border-radius: 1px
+  color: #000;
+  display: block;
+  font-size: 22px;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/*******************
+    BLOCK SETUP
+*******************/
+
+.about-me-block {
+  float: left;
+  width: 50%;
+  list-style: none;
+  padding: 0px;
+  border-right: 0px
+}
+
+.about-me-block {
+ background-image: url("images/rocket-white.jpg");
+}
+
+.portfolio-block {
+  float: right;
+  width: 50%;
+  list-style: none;
+  padding: 0px;
+  border-right: 0px;
+
+}
+
+.portfolio-block {
+  background-image: url("images/rocket-orange.jpg");
+}  
+
+
+.about-me-block h2 {
+  margin: 0;
+}
+
+.about-me-block p {
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+.portfolio-block h2 {
+  margin: 0;
+}
+
+.portfolio-block p {
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+/*******************
+  FOOTER STYLES
+*******************/
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  
+}
+
+
